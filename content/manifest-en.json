@@ -1,0 +1,38 @@
+{
+  "modules": [
+    {
+      "id": "MOD-01",
+      "title": "Foundations & Cosmology",
+      "desc": "The binary physics of the Yi Jing, macro-cosmic Heaven/Earth axes, and why 1, 2, 5, and 6 compile the source code of reality.",
+      "articles": [
+        {"title": "[01] The Binary Physics of Transformation (易經與二進位物理)", "url": "content/en/binary-physics.html"},
+        {"title": "[02] The Six Conduits & Cosmic Geometry (六經與宇宙幾何)", "url": "content/en/six-conduits-cosmos.html"}
+      ]
+    },
+    {
+      "id": "MOD-02",
+      "title": "Thermodynamics & Host Environment",
+      "desc": "The mechanics of biological entropy. How air-conditioning, ice-cold industrial diets, and chemical suppression lock the Taiyang surface and freeze core Yang.",
+      "articles": [
+        {"title": "[01] The 19°C Air-Conditioning Trap (19度空調陷阱)", "url": "content/en/the-ac-trap.html"},
+        {"title": "[02] Entropy, Spleen Collapse, and the Frozen Core (熵增與脾陽崩潰)", "url": "content/en/entropy-and-yang.html"}
+      ]
+    },
+    {
+      "id": "MOD-03",
+      "title": "The Shanghan Code",
+      "desc": "Applied cryptographic algorithms. Deconstructing classical herbal vector math (Gui Zhi, Gan Jiang, Wu Wei Zi) to restore fluid and heat circulation.",
+      "articles": [
+        {"title": "[01] The Cold-Induced Dry Cough Algorithm (風寒乾咳演算法)", "url": "content/en/cough-algorithm.html"}
+      ]
+    },
+    {
+      "id": "MOD-04",
+      "title": "Real-World Field Notes",
+      "desc": "Observing systemic failures in real-time. Analyzing macro-ratios, the MTR October cough loops, and human behavioral percentages.",
+      "articles": [
+        {"title": "[01] October in Hong Kong: The MTR Terminal Loop (十月香港：地鐵終端循環)", "url": "content/en/october-entropy.html"}
+      ]
+    }
+  ]
+}
