@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="terminal-container">
-        <!-- Header with EN / TC Toggle -->
+        <!-- Header -->
         <header class="site-header">
             <div class="logo-area">
                 <span class="prompt">$</span> <span class="site-title">OPEN_SYSTEM_PHYSICS</span> <span class="cursor">_</span>
@@ -17,7 +17,7 @@
                 <div class="lang-switch">
                     <span class="active-lang">EN</span> / <a href="zh-hant/index.html">繁體</a>
                 </div>
-                <div class="version-tag">v1.0.0 // STABLE</div>
+                <div class="version-tag">v1.0.0 // DYNAMIC</div>
             </div>
         </header>
 
@@ -26,47 +26,9 @@
             <p><strong>System Status:</strong> Macro-thermodynamic diagnostics for open biological systems. Bypassing reductionist noise, institutional entropy, and synthetic illusions.</p>
         </section>
 
-        <!-- Module Index -->
-        <main class="module-grid">
-            
-            <div class="module-card">
-                <div class="module-id">MOD-01</div>
-                <h2>Foundations & Cosmology</h2>
-                <p class="module-desc">The binary physics of the Yi Jing, macro-cosmic Heaven/Earth axes, and why 1, 2, 5, and 6 compile the source code of reality.</p>
-                <ul class="article-list">
-                    <li><a href="#">[01] The Binary Physics of Transformation (易經與二進位物理)</a></li>
-                    <li><a href="#">[02] The Six Conduits & Cosmic Geometry (六經與宇宙幾何)</a></li>
-                </ul>
-            </div>
-
-            <div class="module-card">
-                <div class="module-id">MOD-02</div>
-                <h2>Thermodynamics & Host Environment</h2>
-                <p class="module-desc">The mechanics of biological entropy. How air-conditioning, ice-cold industrial diets, and chemical suppression lock the Taiyang surface and freeze core Yang.</p>
-                <ul class="article-list">
-                    <li><a href="#">[01] The 19°C Air-Conditioning Trap (19度空調陷阱)</a></li>
-                    <li><a href="#">[02] Entropy, Spleen Collapse, and the Frozen Core (熵增與脾陽崩潰)</a></li>
-                </ul>
-            </div>
-
-            <div class="module-card">
-                <div class="module-id">MOD-03</div>
-                <h2>The Shanghan Code</h2>
-                <p class="module-desc">Applied cryptographic algorithms. Deconstructing classical herbal vector math (Gui Zhi, Gan Jiang, Wu Wei Zi) to restore fluid and heat circulation.</p>
-                <ul class="article-list">
-                    <li><a href="content/en/cough-algorithm.html">[01] The Cold-Induced Dry Cough Algorithm (風寒乾咳演算法)</a></li>
-                </ul>
-            </div>
-
-            <div class="module-card">
-                <div class="module-id">MOD-04</div>
-                <h2>Real-World Field Notes</h2>
-                <p class="module-desc">Observing systemic failures in real-time. Analyzing macro-ratios, the MTR October cough loops, and human behavioral percentages.</p>
-                <ul class="article-list">
-                    <li><a href="#">[01] October in Hong Kong: The MTR Terminal Loop (十月香港：地鐵終端循環)</a></li>
-                </ul>
-            </div>
-
+        <!-- Auto-rendered Module Grid -->
+        <main class="module-grid" id="module-grid">
+            <!-- JavaScript will populate modules here -->
         </main>
 
         <!-- Footer -->
@@ -75,5 +37,32 @@
             <div class="footer-right"><span>BUILD: 2026.10</span></div>
         </footer>
     </div>
+
+    <!-- Auto-Render Script -->
+    <script>
+        fetch('content/manifest-en.json')
+            .then(response => response.json())
+            .then(data => {
+                const grid = document.getElementById('module-grid');
+                grid.innerHTML = '';
+                
+                data.modules.forEach(mod => {
+                    let articlesHTML = mod.articles.map(art => `
+                        <li><a href="${art.url}">${art.title}</a></li>
+                    `).join('');
+
+                    let card = document.createElement('div');
+                    card.className = 'module-card';
+                    card.innerHTML = `
+                        <div class="module-id">${mod.id}</div>
+                        <h2>${mod.title}</h2>
+                        <p class="module-desc">${mod.desc}</p>
+                        <ul class="article-list">${articlesHTML}</ul>
+                    `;
+                    grid.appendChild(card);
+                });
+            })
+            .catch(error => console.error('Error loading manifest:', error));
+    </script>
 </body>
 </html>
