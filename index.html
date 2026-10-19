@@ -1,68 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open System Physics // Master Index</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="terminal-container">
-        <!-- Header -->
-        <header class="site-header">
-            <div class="logo-area">
-                <span class="prompt">$</span> <span class="site-title">OPEN_SYSTEM_PHYSICS</span> <span class="cursor">_</span>
-            </div>
-            <div class="header-right">
-                <div class="lang-switch">
-                    <span class="active-lang">EN</span> / <a href="zh-hant/index.html">繁體</a>
-                </div>
-                <div class="version-tag">v1.0.0 // DYNAMIC</div>
-            </div>
-        </header>
+---
+layout: base.njk
+title: Master Index
+date: Last Modified
+category: System Core
+---
+<!-- Manifesto -->
+<section class="intro-block">
+    <p><strong>System Status:</strong> Macro-thermodynamic diagnostics for open biological systems. Bypassing reductionist noise, institutional entropy, and synthetic illusions.</p>
+</section>
 
-        <!-- Manifesto -->
-        <section class="intro-block">
-            <p><strong>System Status:</strong> Macro-thermodynamic diagnostics for open biological systems. Bypassing reductionist noise, institutional entropy, and synthetic illusions.</p>
-        </section>
-
-        <!-- Auto-rendered Module Grid -->
-        <main class="module-grid" id="module-grid">
-            <!-- JavaScript will populate modules here -->
-        </main>
-
-        <!-- Footer -->
-        <footer class="site-footer">
-            <div class="footer-left"><span>[DECENTRALIZED ARCHIVE // HANGING OUTSIDE THE NOISE]</span></div>
-            <div class="footer-right"><span>BUILD: 2026.10</span></div>
-        </footer>
+<!-- Auto-Generated Article Grid -->
+<main class="module-grid">
+    <div class="module-card" style="grid-column: 1 / -1;">
+        <div class="module-id">ARCHIVE // ALL MODULES</div>
+        <h2>Core Field Documents</h2>
+        <p class="module-desc">Automatically compiled Markdown documents. Drop a new .md file into the content folder, push to GitHub, and the index updates instantly.</p>
+        
+        <ul class="article-list" style="margin-top: 1.5rem;">
+          {%- for post in collections.all | reverse -%}
+            {%- if post.url != "/" and post.url != "/index.html" -%}
+              <li style="margin-bottom: 0.75rem;">
+                <a href="{{ post.url }}">[DOC] {{ post.data.title }} <span style="color: var(--text-muted); font-size: 0.8rem;">({{ post.data.date }})</span></a>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
     </div>
-
-    <!-- Auto-Render Script -->
-    <script>
-        fetch('content/manifest-en.json')
-            .then(response => response.json())
-            .then(data => {
-                const grid = document.getElementById('module-grid');
-                grid.innerHTML = '';
-                
-                data.modules.forEach(mod => {
-                    let articlesHTML = mod.articles.map(art => `
-                        <li><a href="${art.url}">${art.title}</a></li>
-                    `).join('');
-
-                    let card = document.createElement('div');
-                    card.className = 'module-card';
-                    card.innerHTML = `
-                        <div class="module-id">${mod.id}</div>
-                        <h2>${mod.title}</h2>
-                        <p class="module-desc">${mod.desc}</p>
-                        <ul class="article-list">${articlesHTML}</ul>
-                    `;
-                    grid.appendChild(card);
-                });
-            })
-            .catch(error => console.error('Error loading manifest:', error));
-    </script>
-</body>
-</html>
+</main>
