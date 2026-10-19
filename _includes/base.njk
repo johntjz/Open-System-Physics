@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} // Open System Physics</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="terminal-container">
+        <!-- Terminal Header -->
+        <header class="site-header">
+            <div class="logo-area">
+                <a href="/" style="color: inherit; text-decoration: none;"><span class="prompt">$</span> <span class="site-title">OPEN_SYSTEM_PHYSICS</span></a>
+            </div>
+            <div class="header-right">
+                <div class="version-tag">v2.0.0 // AUTO-INDEXED</div>
+            </div>
+        </header>
+
+        <!-- Dynamic Article Content -->
+        <article class="article-content" style="font-size: 0.95rem; line-height: 1.8; margin: 2rem 0;">
+            <h1 style="color: #ffffff; margin-bottom: 0.5rem; font-size: 1.5rem;">{{ title }}</h1>
+            <p style="color: var(--text-muted); margin-bottom: 2rem;">Published: {{ date }} // {{ category }}</p>
+            
+            {{ content | safe }}
+
+            <div style="border-top: 1px solid var(--border-color); padding-top: 1.5rem; margin-top: 3rem;">
+                <a href="/" style="color: var(--accent-color); text-decoration: none;">&larr; Return to Master Index</a>
+            </div>
+        </article>
+
+        <!-- Terminal Footer -->
+        <footer class="site-footer">
+            <div class="footer-left"><span>[DECENTRALIZED ARCHIVE // AUTO-COMPILED]</span></div>
+            <div class="footer-right"><span>BUILD: 2026.10</span></div>
+        </footer>
+    </div>
+</body>
+</html>
