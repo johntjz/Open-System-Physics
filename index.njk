@@ -17,11 +17,13 @@ category: System Core
         <h2>Core Field Documents</h2>
         <p class="module-desc">Automatically compiled Markdown documents. Drop a new .md file into the content folder, push to GitHub, and the index updates instantly.</p>
         
-        <ul class="article-list" style="margin-top: 1.5rem;">
+        <ul class="article-list" style="margin-top: 1.5rem; list-style: none; padding-left: 0;">
+          {%- set counter = 0 -%}
           {%- for post in collections.all | reverse -%}
-            {%- if post.data.title and post.url != "/" and post.url != "/index" and post.data.title != "Master Index" -%}
+            {%- if post.data.title and post.url != "/" and post.url != "/index.html" and post.data.title != "Master Index" -%}
+              {%- set counter = counter + 1 -%}
               <li style="margin-bottom: 0.75rem;">
-                <a href="{{ post.url }}">[DOC] {{ post.data.title }} <span style="color: var(--text-muted); font-size: 0.8rem;">({{ post.data.date }})</span></a>
+                <a href="{{ post.url }}">[DOC #{{ "%02d" | format(counter) }}] {{ post.data.title }} <span style="color: var(--text-muted); font-size: 0.8rem;">({{ post.data.date }})</span></a>
               </li>
             {%- endif -%}
           {%- endfor -%}
