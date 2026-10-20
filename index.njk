@@ -19,7 +19,7 @@ category: System Core
         
         <ul class="article-list" style="margin-top: 1.5rem; list-style: none; padding-left: 0;">
           {%- set counter = 0 -%}
-          {%- for post in collections.all | reverse -%}
+          {%- for post in collections.all | sort(attribute="date") | reverse -%}
             {%- if post.data.title and post.url != "/" and post.url != "/index.html" and post.data.title != "Master Index" -%}
               {%- set counter = counter + 1 -%}
               <li style="margin-bottom: 0.75rem;">
