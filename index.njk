@@ -19,7 +19,7 @@ category: System Core
         
         <ul class="article-list" style="margin-top: 1.5rem;">
           {%- for post in collections.all | reverse -%}
-            {%- if post.url != "/" and post.url != "/index.html" and post.url != "/index" -%}
+            {%- if post.data.title and post.url != "/" and post.url != "/index" and post.data.title != "Master Index" -%}
               <li style="margin-bottom: 0.75rem;">
                 <a href="{{ post.url }}">[DOC] {{ post.data.title }} <span style="color: var(--text-muted); font-size: 0.8rem;">({{ post.data.date }})</span></a>
               </li>
