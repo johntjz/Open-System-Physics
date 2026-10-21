@@ -1,32 +1,145 @@
 ---
-layout: base.njk
-title: Master Index
-date: Last Modified
-category: System Core
+layout: "base.njk"
 ---
 
-<!-- Manifesto -->
-<section class="intro-block">
-    <p><strong>System Status:</strong> Non-linear thermodynamic diagnostics for open biological systems. Bypassing reductionist noise, institutional entropy, and synthetic illusions.</p>
+<section class="hero-box">
+  <div class="hero-kicker">
+    <span class="lang-en">UNIFIED THERMODYNAMIC ARCHITECTURE · 14 INTERCONNECTED NODES</span>
+    <span class="lang-zh">統一熱力學架構 · 十四個環環相扣之邏輯節點</span>
+  </div>
+  <h1 class="hero-title">
+    <span class="lang-en">The Open-System Physics Codex</span>
+    <span class="lang-zh">開放系統物理學：傷寒與六經原始碼</span>
+  </h1>
+  <p class="hero-desc">
+    <span class="lang-en">
+      Classical Chinese Medicine is not a scattered collection of folk remedies—it is a single, airtight recursive operating system. Every node below locks into the next: from the <strong>1-2-5-6 Cosmic Codebase</strong>, through the <strong>19°C Urban Entropy Matrix</strong>, down to exact <strong>Jing Fang Gram Ratios</strong> for acute and deep constitutional pathologies.
+    </span>
+    <span class="lang-zh">
+      傳統經方醫學並非零散的民間偏方，而是一套嚴密無間的遞迴作業系統。以下十四個章節環環相扣：從 <strong>1-2-5-6 宇宙原始碼</strong>，穿過 <strong>19°C 都市空調熵增母體</strong>，一路直達治療急症與深層伏飲的 <strong>經方精確克數比例</strong>。
+    </span>
+  </p>
+
+  {% set firstNode = collections.chapters[0] %}
+  {% if firstNode %}
+  <div class="hero-actions">
+    <a href="{{ firstNode.url }}" class="btn-primary">
+      <span class="lang-en">Start Sequential Reading (Node 01 → 14)</span>
+      <span class="lang-zh">開始順序閱讀（節點 01 → 14）</span>
+    </a>
+  </div>
+  {% endif %}
 </section>
 
-<!-- Auto-Generated Article Grid -->
-<main class="module-grid">
-    <div class="module-card" style="grid-column: 1 / -1;">
-        <div class="module-id">ARCHIVE // NON-LINEAR DYNAMICS & CONDUITS</div>
-        <h2>Core Field Documents</h2>
-        <p class="module-desc">Automatically compiled Markdown documents. Drop a new .md file into the content folder, push to GitHub, and the index updates instantly.</p>
-        
-        <ul class="article-list" style="margin-top: 1.5rem; list-style: none; padding-left: 0;">
-          {%- set counter = 0 -%}
-          {%- for post in collections.all | sort(attribute="date") | reverse -%}
-            {%- if post.data.title and post.url != "/" and post.url != "/index.html" and post.data.title != "Master Index" -%}
-              {%- set counter = counter + 1 -%}
-              <li style="margin-bottom: 0.75rem;">
-                <a href="{{ post.url }}">[DOC #{{ "%02d" | format(counter) }}] {{ post.data.title }} <span style="color: var(--text-muted); font-size: 0.8rem;">({{ post.data.date }})</span></a>
-              </li>
-            {%- endif -%}
-          {%- endfor -%}
-        </ul>
+<section class="controls-bar">
+  <div class="search-wrap">
+    <input
+      type="search"
+      id="matrixSearch"
+      class="search-input"
+      placeholder="Search herbs (e.g. Gui Zhi, Bai Shao, Fu Zi), symptoms, or physics vectors..."
+      aria-label="Search chapters"
+    >
+  </div>
+  <div class="module-filters" id="moduleFilters">
+    <button type="button" class="filter-chip active" data-mod="all">
+      <span class="lang-en">All 14 Nodes</span>
+      <span class="lang-zh">全部 14 節點</span>
+    </button>
+    <button type="button" class="filter-chip" data-mod="I">
+      <span class="lang-en">I. Cosmic Code</span>
+      <span class="lang-zh">一、宇宙原始碼</span>
+    </button>
+    <button type="button" class="filter-chip" data-mod="II">
+      <span class="lang-en">II. Urban Entropy</span>
+      <span class="lang-zh">二、都市熵增</span>
+    </button>
+    <button type="button" class="filter-chip" data-mod="III">
+      <span class="lang-en">III. Acute Exterior</span>
+      <span class="lang-zh">三、表證急症</span>
+    </button>
+    <button type="button" class="filter-chip" data-mod="IV">
+      <span class="lang-en">IV. Deep Hydrology</span>
+      <span class="lang-zh">四、深層水液與重症</span>
+    </button>
+  </div>
+</section>
+
+<section class="puzzle-chain" id="puzzleChain">
+  {% for post in collections.chapters %}
+  <article
+    class="node-card"
+    data-module="{{ post.data.module_num }}"
+    data-search="{{ post.data.title | lower }} {{ post.data.title_zh }} {{ post.data.summary | lower }} {{ post.data.summary_zh }} {{ post.data.keywords | lower }}"
+  >
+    <div class="node-rail">
+      <span class="node-index">{{ post.data.order | padNumber }}</span>
+      {% if not loop.last %}
+      <span class="node-connector"></span>
+      {% endif %}
     </div>
-</main>
+
+    <div class="node-body">
+      <div class="node-header">
+        <span class="node-mod-tag">
+          <span class="lang-en">MODULE {{ post.data.module_num }} · {{ post.data.module }}</span>
+          <span class="lang-zh">第{{ post.data.module_num }}卷 · {{ post.data.module_zh }}</span>
+        </span>
+        {% if post.data.keywords %}
+        <span class="node-keywords">{{ post.data.keywords }}</span>
+        {% endif %}
+      </div>
+
+      <h2 class="node-title">
+        <a href="{{ post.url }}">
+          <span class="lang-en">{{ post.data.title }}</span>
+          <span class="lang-zh">{{ post.data.title_zh or post.data.title }}</span>
+        </a>
+      </h2>
+
+      <p class="node-summary">
+        <span class="lang-en">{{ post.data.summary }}</span>
+        <span class="lang-zh">{{ post.data.summary_zh or post.data.summary }}</span>
+      </p>
+
+      {% if post.data.next_logic %}
+      <div class="node-next-hint">
+        <span class="lang-en">↳ <strong>Leads to Node {{ (post.data.order + 1) | padNumber }}:</strong> {{ post.data.next_logic }}</span>
+        <span class="lang-zh">↳ <strong>銜接節點 {{ (post.data.order + 1) | padNumber }}：</strong>{{ post.data.next_logic_zh }}</span>
+      </div>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</section>
+
+<script>
+  (function() {
+    const searchInput = document.getElementById('matrixSearch');
+    const filterBtns = document.querySelectorAll('.filter-chip');
+    const cards = document.querySelectorAll('.node-card');
+    let activeMod = 'all';
+
+    function filterNodes() {
+      const q = (searchInput.value || '').trim().toLowerCase();
+      cards.forEach(card => {
+        const modMatch = activeMod === 'all' || card.dataset.module === activeMod;
+        const textMatch = !q || (card.dataset.search || '').toLowerCase().includes(q);
+        card.style.display = (modMatch && textMatch) ? 'flex' : 'none';
+      });
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', filterNodes);
+    }
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeMod = btn.dataset.mod;
+        filterNodes();
+      });
+    });
+  })();
+</script>
