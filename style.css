@@ -100,7 +100,7 @@ html[data-lang="zh"] .lang-en { display: none !important; }
   background: var(--surface-hover);
 }
 
-/* Collapsible 14-Node Drawer */
+/* Collapsible 16-Node Drawer */
 .chapter-drawer {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
