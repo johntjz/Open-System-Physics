@@ -10,6 +10,7 @@ summary_zh: "全書終極總結：解碼己亥土虛與丙午水運太過座標�
 keywords: "Xiong Bi, Wei Zhang Ding Ge, Ji-Hai Deficient Earth, Wai Kuang Nei Kong, Pao Fu Zi Fa Ban Xia, 30% Trial Ratio"
 next_logic: "Having mastered the physical and pharmacological equations of life-and-death clinical intervention, Node 16 confronts the ultimate existential question of the Grandmaster: why fight entropy at all when death is undefeated?"
 next_logic_zh: "掌握生死重症的物理與經方方程式後，最終節點 16 將直面宗師的終極存在之問：既然熵增與死亡不可戰勝，醫者為何而戰？"
+layout: "base.njk"
 ---
 
 > **[ARCHIVAL PRECISION NOTE]:** This capstone node synthesizes the complete open-system physics framework across cosmology, prenatal psychology, fluid mechanics, and heavy-artillery *Jing Fang* refactoring. All clinical data are anonymized to pure Stems-and-Branches coordinates. Use any AI tool to unpack specific sub-equations.
@@ -31,7 +32,7 @@ Whenever this constitution consumes raw, cold delicacies (such as sashimi and su
 
 ### 2. Critique of the Institutional Post-Surgical Prescription: The 4 Fatal Errors
 
-Following surgical clearance of pulmonary-vascular blockages, modern academic TCM frequently misinterprets restlessness (*Kuang*), strong appetite, post-surgical weakness, and hypoxemia as **"Qi and Yin Deficiency with Empty Heat" (*Qi Yin Liang Xu, Yin Xu Huo Wang*)**. 
+Following surgical clearance of pulmonary-vascular blockages, modern academic TCM frequently misinterprets restlessness (*Kuang*), strong appetite, post-surgical weakness, and hypoxemia as **"Qi and Yin Deficiency with Empty Heat" (*Qi Yin Liang Xu, Yin Xu Huo Wang*)**.
 
 Inspecting a representative institutional granule prescription (converted to daily raw-herb equivalents) exposes why the patient's previously flat abdomen rapidly inflates like a drum while oxygen dependency persists:
 * **Massive Sweet-Cloying Qi Tonics:** *Huang Qi* (黃耆) **84g** + *Ren Shen* (人參) **30.27g** + *Dang Shen* (黨參) **14.7g** + *Hong Jing Tian* (紅景天) **27g** + *Ling Zhi* **9g** — paired with a negligible **2.1g** of *Chen Pi*!
@@ -39,7 +40,7 @@ Inspecting a representative institutional granule prescription (converted to dai
 * **Bitter-Cold Fire-Extinguishers:** *Di Gu Pi* (地骨皮) **45.75g** + *Zhi Mu* (知母) **36g** + *Qing Hao* (青蒿) **18g**.
 
 #### The Four Classical Errors (*Bi Men Liu Kou, Zi Ni Mie Yang, Gan Yong Zhong Man, Wei Zhang Ding Ge*)
-1. **Error 1 — Extinguishing Chest Yang in *Xiong Bi*:** Zhang Zhongjing's iron law in *Jin Gui Yao Lue* states: *"In Chest Bi, the Yang is faint and the Yin is弦 (string-tight)... Phlegm-fluid disease MUST be harmonized with warm medicinals."* Dumping **72g of Tortoise Shell, 36g of *Zhi Mu*, and 45.75g of *Di Gu Pi*** into a *Ji-Hai* (Deficient Earth) patient during a *Bing-Wu* (Excess Water) year with **zero warming herbs** (*Fu Zi, Gan Jiang, Gui Zhi, Xie Bai*) directly douses Heart-Lung Chest *Yang*.
+1. **Error 1 — Extinguishing Chest Yang in *Xiong Bi*:** Zhang Zhongjing's iron law in *Jin Gui Yao Lue* states: *"In Chest Bi, the Yang is faint and the Yin is string-tight... Phlegm-fluid disease MUST be harmonized with warm medicinals."* Dumping **72g of Tortoise Shell, 36g of *Zhi Mu*, and 45.75g of *Di Gu Pi*** into a *Ji-Hai* (Deficient Earth) patient during a *Bing-Wu* (Excess Water) year with **zero warming herbs** (*Fu Zi, Gan Jiang, Gui Zhi, Xie Bai*) directly douses Heart-Lung Chest *Yang*.
 2. **Error 2 — Why the Abdomen Inflates Like a Drum (*Zhong Man Zhe Wu Shi Gan* 中滿者勿食甘):** Packing **84g of *Huang Qi* and 45g of Ginseng/Codonopsis** on top of **36g of *Zhi Mu*** (notorious in classical materia medica for damaging Spleen *Yang* 苦寒滑腸最伐脾陽) and **72g of slimy Tortoise Shell** acts like pouring wet cement into a cold stomach. Spleen transformation paralyzes completely, filling the belly with *Taiyin* damp-turbidity and stagnant *Qi*. Walking around the house cannot "burn off" this belly because it is **not adipose fat—it is pathological *Qi* and water stagnation**.
 3. **Error 3 — Mechanical Diaphragmatic Compression (*Wei Zhang Ding Ge* 胃脹頂膈) & The "Craving AC" Paradox:**
    * **Why Oxygen Dependency Persists:** The ballooning abdomen pushes mechanically upward against the diaphragm (*Wei Zhang Ding Ge*), compressing the thoracic cavity from below so the lower lung lobes and alveoli cannot expand to take in air.
@@ -60,7 +61,7 @@ In severe cardiopulmonary-vascular obstruction with thoracic fluid retention, cl
 
 **Mandatory First Step:** Strip out **100%** of the middle-blocking and Yang-extinguishing ingredients (*Cu Gui Jia* 72g, *Zhi Mu* 36g, *Di Gu Pi* 45.75g, *Qing Hao* 18g, *Shi Hu*, *Yu Zhu*, *Tian/Mai Dong*, *Di Huang*, *Suan Zao Ren* 57g, *Mu Li* 36g), cut *Huang Qi* from 84g down to 12–18g, and replace 45g of white *Ren Shen/Dang Shen* with 5–10g of warm **Hong Shen (Red Ginseng)**.
 
-| Functional Vector Group | Herb Name (Pinyin / Chinese) | Phase 1: 30%–40% Safe Decompression Trial *(Raw / Granule)* | Phase 2: 100% Full Master Overhaul *(Raw / Granule)* | Classical Mechanism in Deflating the Belly & Restoring Alveolar $SpO_2$ |
+| Functional Vector Group | Herb Name (Pinyin / Chinese) | Phase 1: 30%–40% Safe Decompression Trial *(Raw / Granule)* | Phase 2: 100% Full Master Overhaul *(Raw / Granule)* | Classical Mechanism in Deflating the Belly & Restoring Alveolar SpO₂ |
 | :--- | :--- | :--- | :--- | :--- |
 | **1. Abdominal Decompression & Diaphragm Drop** *(Ratio 1 : 1 : 1.5)* | **Hou Po** (厚朴) | **9 g** *(1.5–2.0g)* | **15 g** *(3.0g)* | Eliminates abdominal fullness (*Xia Qi Chu Man*) and relieves upward mechanical pressure on the lungs. |
 | | **Zhi Shi** (枳實) | **9 g** *(1.5–2.0g)* | **15 g** *(3.0g)* | Breaks focal distension (*Po Qi Xiao Pi*), shrinks the ballooning stomach, and pulls the diaphragm downward. |
@@ -81,7 +82,7 @@ In severe cardiopulmonary-vascular obstruction with thoracic fluid retention, cl
 
 #### Non-Negotiable Lifestyle Directives
 1. **Absolute Ban on Raw/Cold Inputs (Zero Sushi, Sashimi, Iced Drinks, or Cold Fruit):** For a *Ji-Hai* Deficient Earth constitution in a *Bing-Wu* Excess Water year with a *Chen* water-reservoir abdomen, every piece of cold sashimi is a direct strike against Spleen *Yang* and pulmonary microcirculation. All intake must be warm, cooked, and spiced with ginger/scallion/garlic.
-2. **Stop Exhaustion-Walking to "Shrink the Belly":** Over-exerting while hypoxemic consumes precious Heart-Lung *Zong Qi* and triggers sympathetic adrenaline spikes. Once the *Hou Po + Zhi Shi + Fu Ling + Gan Jiang* architecture opens the middle sluice gate, copious urination and flatus will deflate the abdomen, drop the diaphragm, extinguish false surface heat, and allow blood oxygen saturation ($SpO_2$) to climb naturally.
+2. **Stop Exhaustion-Walking to "Shrink the Belly":** Over-exerting while hypoxemic consumes precious Heart-Lung *Zong Qi* and triggers sympathetic adrenaline spikes. Once the *Hou Po + Zhi Shi + Fu Ling + Gan Jiang* architecture opens the middle sluice gate, copious urination and flatus will deflate the abdomen, drop the diaphragm, extinguish false surface heat, and allow blood oxygen saturation (SpO₂) to climb naturally.
 
 <!-- LANG_SPLIT -->
 
@@ -145,7 +146,7 @@ In severe cardiopulmonary-vascular obstruction with thoracic fluid retention, cl
 | | **炮附子** *(先煎 40分鐘)* | *第一階段不放（零十八反顧慮）* | **15 g** *(3.0g)* *(中焦開後加入)* | 溫振心肺胸陽與腎命門真火以抗丙午寒水；引浮越之「狂」火歸元。 |
 | **3. 培土制水、瀉肺通絡** *(抽腹水、提血氧 · 比例 2:1:1)* | **茯苓** | **18–24 g** *(4.0g)* | **30 g** *(6.0g)* | 重用茯苓為君，將腹中停聚之死水由小便排出，兼安腎恐。 |
 | | **焦白朮** | **9–12 g** *(2.0g)* | **18 g** *(3.5g)* | 健運脾土、重建己亥年先天土虛堤壩，助茯苓消肚脹。 |
-| | **北葶藶子** *(包煎)* | **9 g** *(1.5g)* | **15 g** *(3.0g)* | 瀉肺行水、直清肺泡微血管痰水鬱積，突破血氧（$SpO_2$）瓶頸。 |
+| | **北葶藶子** *(包煎)* | **9 g** *(1.5g)* | **15 g** *(3.0g)* | 瀉肺行水、直清肺泡微血管痰水鬱積，突破血氧（SpO₂）瓶頸。 |
 | | **廣陳皮** | **6 g** *(1.0g)* | **10 g** *(2.0g)* | 理氣健脾，保持中焦旋轉，防補藥滯氣。 |
 | **4. 顧護元氣與活血通絡** *(防驟減參耆虛脫)* | **紅參** | **5 g** *(1.0g)* | **10 g** *(2.0g)* | 性溫不膩，替代原方 45g 白參／黨參，穩住元氣與宗氣而不脹肚。 |
 | | **生黃耆** | **12 g** *(2.0g)* *(由 84g 大減！)* | **18 g** *(3.5g)* | 維持血管張力與宗氣，補氣而不塞中焦。 |
