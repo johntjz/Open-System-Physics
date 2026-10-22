@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+  {% set totalNodes = collections.chapters | length %}
   <div class="progress-bar" id="progressBar"></div>
 
   <header class="site-header">
@@ -20,8 +21,8 @@
       <div class="header-controls">
         {% if order %}
         <button type="button" class="map-toggle-btn" id="mapToggleBtn" aria-label="Toggle Puzzle Map">
-          <span class="lang-en">Chapter {{ order | padNumber }} / 14 ▾</span>
-          <span class="lang-zh">第 {{ order | padNumber }} / 14 章 ▾</span>
+          <span class="lang-en">Node {{ order | padNumber }} / {{ totalNodes | padNumber }} ▾</span>
+          <span class="lang-zh">節點 {{ order | padNumber }} / {{ totalNodes | padNumber }} ▾</span>
         </button>
         {% endif %}
         <button type="button" class="lang-toggle-btn" id="langToggleBtn">
@@ -35,8 +36,8 @@
     <nav class="chapter-drawer" id="chapterDrawer" hidden>
       <div class="drawer-inner">
         <div class="drawer-title">
-          <span class="lang-en">Complete 14-Chapter Logical Sequence</span>
-          <span class="lang-zh">十四章完整邏輯脈絡圖</span>
+          <span class="lang-en">Complete {{ totalNodes }}-Node Logical Sequence</span>
+          <span class="lang-zh">全 {{ totalNodes }} 節點完整邏輯脈絡圖</span>
         </div>
         <div class="drawer-grid">
           {% for item in collections.chapters %}
@@ -56,7 +57,6 @@
 
   <main class="container">
     {% if order %}
-      {# Find Previous and Next Chapters in the 1-14 sequence #}
       {% set prevChapter = null %}
       {% set nextChapter = null %}
       {% for item in collections.chapters %}
@@ -75,8 +75,8 @@
             <span class="lang-zh">第{{ module_num }}卷 · {{ module_zh or module }}</span>
           </span>
           <span class="badge-step">
-            <span class="lang-en">NODE {{ order | padNumber }} OF 14</span>
-            <span class="lang-zh">節點 {{ order | padNumber }} / 14</span>
+            <span class="lang-en">NODE {{ order | padNumber }} OF {{ totalNodes | padNumber }}</span>
+            <span class="lang-zh">節點 {{ order | padNumber }} / {{ totalNodes | padNumber }}</span>
           </span>
         </div>
 
@@ -107,7 +107,7 @@
           <div class="logic-bridge">
             <div class="bridge-label">
               <span class="lang-en">⚡ LOGICAL VECTOR TO NEXT NODE</span>
-              <span class="lang-zh">⚡ 通往下一章之邏輯向量</span>
+              <span class="lang-zh">⚡ 通往下一節點之邏輯向量</span>
             </div>
             <p class="bridge-text">
               <span class="lang-en">{{ next_logic }}</span>
@@ -155,8 +155,8 @@
             {% else %}
             <a href="/" class="nav-card next-card">
               <span class="nav-dir">
-                <span class="lang-en">↻ LOOP COMPLETE (14 / 14)</span>
-                <span class="lang-zh">↻ 系統閉環完成 (14 / 14)</span>
+                <span class="lang-en">↻ LOOP COMPLETE ({{ totalNodes | padNumber }} / {{ totalNodes | padNumber }})</span>
+                <span class="lang-zh">↻ 系統閉環完成 ({{ totalNodes | padNumber }} / {{ totalNodes | padNumber }})</span>
               </span>
               <strong class="nav-card-title">
                 <span class="lang-en">Return to Node 01 / System Matrix</span>
@@ -175,7 +175,7 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <span>Open-System Physics · Classical Thermodynamic Architecture</span>
-      <span class="version-stamp">v.2.0 · website last updated: 2026-10-21</span>
+      <span class="version-stamp">v.2.1 · website last updated: 2026-10-22</span>
     </div>
   </footer>
 
@@ -187,9 +187,10 @@
       const drawer = document.getElementById('chapterDrawer');
       const progressBar = document.getElementById('progressBar');
 
-      // Persist language preference across chapter navigation
-      const savedLang = localStorage.getItem('osp_lang') || (window.location.pathname.startsWith('/zh-hant') ? 'zh' : 'en');
+      const params = new URLSearchParams(window.location.search);
+      const savedLang = params.get('lang') || localStorage.getItem('osp_lang') || (window.location.pathname.startsWith('/zh-hant') ? 'zh' : 'en');
       htmlEl.setAttribute('data-lang', savedLang);
+      localStorage.setItem('osp_lang', savedLang);
 
       if (langBtn) {
         langBtn.addEventListener('click', () => {
