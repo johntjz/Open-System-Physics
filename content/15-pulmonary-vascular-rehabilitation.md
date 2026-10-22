@@ -8,9 +8,8 @@ title_zh: "心肺血管重症康復：五運六氣胎驚烙印、胃脹頂膈破
 summary: "The capstone synthesis: decoding Ji-Hai vs. Bing-Wu coordinates, prenatal fear masking as manic Ministerial Fire (Wai Kuang Nei Kong), why 84g Huang Qi and 72g Tortoise Shell inflate the abdomen and compress the lungs, the 'Craving AC While Bloated' paradox, Pao Fu Zi + Fa Ban Xia mastery, and 100% vs. 30%–40% trial architectures."
 summary_zh: "全書終極總結：解碼己亥土虛與丙午水運太過座標、胎驚恐懼偽裝為相火外狂（外狂內恐）、84g 黃耆與 72g 龜甲如何塞爆中焦造成「胃脹頂膈」與低血氧、「肚脹卻貪吹冷氣」之假熱悖論、炮附子配法半夏之十八反真諦，以及全量與 30%–40% 輕舟試水配伍架構。"
 keywords: "Xiong Bi, Wei Zhang Ding Ge, Ji-Hai Deficient Earth, Wai Kuang Nei Kong, Pao Fu Zi Fa Ban Xia, 30% Trial Ratio"
-next_logic: "Loop Complete (15 / 15): Every clinical phenomenon—from a 5-minute AC throat tickle to life-threatening cardiopulmonary-vascular stasis—maps back to the exact same 1-2-5-6 open-system thermodynamic source code in Node 01."
-next_logic_zh: "系統閉環完成（15 / 15）：從五分鐘冷氣咽癢到危及生命的心肺血管阻塞，所有臨床現象皆完美回歸節點 01 的「1-2-5-6 開放系統熱力學原始碼」。"
-layout: "base.njk"
+next_logic: "Having mastered the physical and pharmacological equations of life-and-death clinical intervention, Node 16 confronts the ultimate existential question of the Grandmaster: why fight entropy at all when death is undefeated?"
+next_logic_zh: "掌握生死重症的物理與經方方程式後，最終節點 16 將直面宗師的終極存在之問：既然熵增與死亡不可戰勝，醫者為何而戰？"
 ---
 
 > **[ARCHIVAL PRECISION NOTE]:** This capstone node synthesizes the complete open-system physics framework across cosmology, prenatal psychology, fluid mechanics, and heavy-artillery *Jing Fang* refactoring. All clinical data are anonymized to pure Stems-and-Branches coordinates. Use any AI tool to unpack specific sub-equations.
