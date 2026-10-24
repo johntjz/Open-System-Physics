@@ -37,20 +37,20 @@ Why does acrid, warm tropical plant sap penetrate one host's interstitial pores 
 
 In classical physics, water flows toward dampness and fire leaps toward heat. Applied to acute dermatological pathology, three interlocking vectors turn the neck into a combustion chamber:
 
-1. **The Internal Magnet: Liver鬱 Transforming into Fire (*Gan Yu Hua Huo* 肝鬱化火):**
-   * When a host spends hours in transit locked in unreleased rage, humiliation, and petty envy, the smooth flow of Liver *Qi* stagnates violently and ignites into **Internal Fire (*Nei Huo* 內火)** and **Blood-Heat (*Xue Re* 血熱)**.
-   * Because heat naturally surges upward, this boiling Liver Fire rushes straight up the **Shaoyang (少陽 Gallbladder/Triple Energizer)** and **Yangming (陽明 Large Intestine/Stomach)** conduits that converge around the neck (*Jing Xiang* 頸項).
+1. **The Internal Magnet: Liver 鬱 Transforming into Fire (*Gan Yu Hua Huo* 肝鬱化火):**
+   - When a host spends hours in transit locked in unreleased rage, humiliation, and petty envy, the smooth flow of Liver *Qi* stagnates violently and ignites into **Internal Fire (*Nei Huo* 內火)** and **Blood-Heat (*Xue Re* 血熱)**.
+   - Because heat naturally surges upward, this boiling Liver Fire rushes straight up the **Shaoyang (少陽 Gallbladder/Triple Energizer)** and **Yangming (陽明 Large Intestine/Stomach)** conduits that converge around the neck (*Jing Xiang* 頸項).
 2. **Thermal Dilation of the Interstitial Gates (*Cou Li Kai Zhang* 腠理開張):**
-   * Just as thermal energy expands physical matter, internal Fire surging to the neck flushes the cutaneous capillary bed and forces the superficial pores (*Cou Li*) to dilate wide open.
-   * Simultaneously, refusing nourishment (fasting out of spite during exhausting cross-regional travel) starves the Spleen and Stomach of *Gu Qi* (穀氣 — Grain Energy), which is the direct fuel source for **Wei Qi (衛氣 — Defensive Energy)**. Without *Gu Qi* replenishment and unacclimated to the local terrestrial climate (*Di Qi* 地氣), *Wei Qi* collapses (*Wei Qi Bu Gu* 衛氣不固), leaving the dilated *Cou Li* completely unguarded.
+   - Just as thermal energy expands physical matter, internal Fire surging to the neck flushes the cutaneous capillary bed and forces the superficial pores (*Cou Li*) to dilate wide open.
+   - Simultaneously, refusing nourishment (fasting out of spite during exhausting cross-regional travel) starves the Spleen and Stomach of *Gu Qi* (穀氣 — Grain Energy), which is the direct fuel source for **Wei Qi (衛氣 — Defensive Energy)**. Without *Gu Qi* replenishment and unacclimated to the local terrestrial climate (*Di Qi* 地氣), *Wei Qi* collapses (*Wei Qi Bu Gu* 衛氣不固), leaving the dilated *Cou Li* completely unguarded.
 3. **Resonance Ignition (*Feng Re Xiang Bo* 風熱相搏):**
-   * Fresh tropical plumeria sap carries a dense, acrid-warm botanical Yang toxicity (*Wai Du* 外毒). When draped over the neck of a calm, well-fed individual whose Liver *Qi* is cool and whose *Cou Li* are tightly sealed (*Cou Li Mi Bi* 腠理密閉), the sap finds no internal anchor and cannot cross the stratum corneum.
-   * When that exact same sap touches a neck flushed with *Gan Huo* and wide-open *Cou Li*, **Internal Fire magnetizes External Fire**. The botanical toxin is pulled straight into the cutaneous vessels, where Wind ("the spearhead of a hundred diseases" 風為百病之長) battles *Wei Qi* in the interstices to produce insane itching, while Fire-Toxin (*Huo Du* 火毒) boils the Blood into crimson eruption.
+   - Fresh tropical plumeria sap carries a dense, acrid-warm botanical Yang toxicity (*Wai Du* 外毒). When draped over the neck of a calm, well-fed individual whose Liver *Qi* is cool and whose *Cou Li* are tightly sealed (*Cou Li Mi Bi* 腠理密閉), the sap finds no internal anchor and cannot cross the stratum corneum.
+   - When that exact same sap touches a neck flushed with *Gan Huo* and wide-open *Cou Li*, **Internal Fire magnetizes External Fire**. The botanical toxin is pulled straight into the cutaneous vessels, where Wind ("the spearhead of a hundred diseases" 風為百病之長) battles *Wei Qi* in the interstices to produce insane itching, while Fire-Toxin (*Huo Du* 火毒) boils the Blood into crimson eruption.
 
 | Host Terrain Variable | Balanced Host (Zero Reaction) | Agitated & Depleted Host (Explosive Dermatitis) |
 | :--- | :--- | :--- |
-| **Emotional & Hepatic Vector** | Calm, satisfied (*Gan Qi Shu Chang* 肝氣舒暢); zero internal heat anchor. | Unreleased rage & envy → **Liver Fire (*Gan Yu Hua Huo* 肝鬱化火)** surging to the neck. |
-| **Digestive & *Wei Qi* Fuel** | Nourished with warm food (*Gu Qi* abundant); *Wei Qi* robust. | Spiteful fasting during flight → *Gu Qi* starved → **Defensive *Wei Qi* Collapse (*Wei Qi Bu Gu*)**. |
+| **Emotional & Hepatic Vector** | Calm, satisfied (*Gan Qi Shu Chang* 肝氣舒暢); zero internal heat anchor. | Unreleased rage & envy $\rightarrow$ **Liver Fire (*Gan Yu Hua Huo* 肝鬱化火)** surging to the neck. |
+| **Digestive & *Wei Qi* Fuel** | Nourished with warm food (*Gu Qi* abundant); *Wei Qi* robust. | Spiteful fasting during flight $\rightarrow$ *Gu Qi* starved $\rightarrow$ **Defensive *Wei Qi* Collapse (*Wei Qi Bu Gu*)**. |
 | **State of Neck *Cou Li* (Pores)** | Tightly regulated and sealed (*Cou Li Mi Bi* 腠理密閉). | Thermally dilated and wide open (**Cou Li Kai Zhang** 腠理開張). |
 | **Resonance with Plant Sap (*Cao Mu Du*)** | Zero frequency match; sap rests harmlessly on outer epidermis. | **Tong Lei Xiang Ying (同氣相求):** Internal Fire pulls external Heat-Toxin deep into the dermis. |
 
