@@ -97,9 +97,9 @@ Why can a 2-to-5 herb classical formula—or a mere 2-gram micro-dose of *Xi Xin
 
 #### Mechanism I: Crossing the Thermodynamic Phase Boundary
 Consider pure water ($\text{H}_2\text{O}$) inside a closed hydraulic pipe:
-- At **$0^\circ\text{C}$**, it freezes into solid ice, halting all throughput (**Cold-Lock / Stasis**).
-- At **$35^\circ\text{C}$**, it sits at the bottom as a heavy, sluggish liquid (**Damp Stagnation / *Zhi Yin* Mucus Pooling**).
-- At **$100^\circ\text{C}$**, it flashes into kinetic steam, generating upward pressure and rapid circulation (**Qi Transformation / *Qi Hua***).
+- At **0C**, it freezes into solid ice, halting all throughput (**Cold-Lock / Stasis**).
+- At **35C**, it sits at the bottom as a heavy, sluggish liquid (**Damp Stagnation / *Zhi Yin* Mucus Pooling**).
+- At **100C**, it flashes into kinetic steam, generating upward pressure and rapid circulation (**Qi Transformation / *Qi Hua***).
 
 The chemical substance ($\text{H}_2\text{O}$) never changed—only the thermal parameter shifted. When a classical formula introduces a precise thermal micro-lever (such as 2g of *Xi Xin* or 4.5g of *Gan Jiang*) at the lower water gate, it pushes the internal microclimate across a **phase boundary**. Sluggish water pooling as chest phlegm and nasal rheum vaporizes into circulating mist. Under the new thermal parameter, the old pathological state (mucus accumulation) becomes physically impossible to sustain.
 
