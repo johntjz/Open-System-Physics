@@ -22,7 +22,7 @@ To an untrained observer, a modern standardized Traditional Chinese Medicine (TC
 Consider a complex 19-herb respiratory and dampness prescription frequently deployed in modern clinics:
 - *Chao Yi Yi Ren* (炒薏苡仁 12g), *Fu Ling* (茯苓 12g), *Shan Yao* (山藥 10g), *Jiang Ban Xia* (薑半夏 9g), *Chao Bai Zhu* (炒白朮 9g), *Dong Gua Ren* (冬瓜仁 9g), *Hou Po* (厚朴 6g), *Hua Ju Hong* (化橘紅 6g), *Chao Zi Su Zi* (炒紫蘇子 6g), *Jie Geng* (桔梗 6g), *Ku Xing Ren* (苦杏仁 6g), *Gui Zhi* (桂枝 6g), *Shi Chang Pu* (石菖蒲 6g), *Gan Jiang* (乾薑 4.5g), *Wu Wei Zi* (五味子 4.5g), *Bai Zhi* (白芷 4.5g), *Xin Yi Hua* (辛夷花 4.5g, wrapped), *Zhi Gan Cao* (炙甘草 4.5g), and *Xi Xin* (細辛 2g).
 
-```text
+```
        ┌─────────────────────────────────────────┐
        │   CLEARING THE UPPER (Lungs / Sinuses)  │
        │   Xinyihua, Baizhi, Xixin, Jiegeng      │
@@ -41,7 +41,7 @@ Consider a complex 19-herb respiratory and dampness prescription frequently depl
        └─────────────────────────────────────────┘
 ```
 
-1. **The IT Support Lens (Standardized TCM Pattern-Matching):** Standardized 1950s textbook medicine operates at the application layer. It groups surface symptoms into static nouns ("Spleen Qi Deficiency with Cold-Phlegm Retention and Wind-Cold Sinus Congestion") and assigns each herb a fixed biochemical or symptomatic tag: *Xin Yi Hua* and *Bai Zhi* "unblock the nose," *Jie Geng* and *Ku Xing Ren* "stop cough," *Yi Yi Ren* and *Fu Ling* "drain dampness." Like an IT technician closing 19 separate helpdesk tickets with 19 individual software patches, this shotgun approach manually overrides surface outputs while imposing heavy computational and digestive overhead on the host.
+1. **The IT Support Lens (Standardized TCM Pattern-Matching):** Standardized 1950s book medicine operates at the application layer. It groups surface symptoms into static nouns ("Spleen Qi Deficiency with Cold-Phlegm Retention and Wind-Cold Sinus Congestion") and assigns each herb a fixed biochemical or symptomatic tag: *Xin Yi Hua* and *Bai Zhi* "unblock the nose," *Jie Geng* and *Ku Xing Ren* "stop cough," *Yi Yi Ren* and *Fu Ling* "drain dampness." Like an IT technician closing 19 separate helpdesk tickets with 19 individual software patches, this shotgun approach manually overrides surface outputs while imposing heavy computational and digestive overhead on the host.
 2. **The Computer Science PhD Lens (Classical Vector Architecture):** A classical architect ignores surface symptom labels and reads the prescription as a synchronized mechanical engine governing spatial vectors, pressure gradients, and cosmic timing:
    - **Upper Cranial Venting & Descending Pull:** *Jie Geng* provides an upward vector, carrying *Bai Zhi* and *Xin Yi Hua* into the *Taiyang/Yangming* sinus cavities to disperse stagnant fluid, while *Ku Xing Ren*, *Chao Zi Su Zi*, *Hua Ju Hong*, and *Dong Gua Ren* simultaneously pull the thoracic vector downward—restoring the pneumatic expansion-contraction cycle.
    - **The Celestial Pivot of the Middle Axis:** Rather than viewing *Ban Xia* (Pinellia) merely as a "phlegm-drying anti-emetic," classical physics observes its cosmic geometry: *Ban Xia* thrives in damp summer heat and ripens at the exact midpoint of the year (the Summer Solstice), embodying the precise cosmological hinge where expanding *Yang* pivots into descending *Yin*. Paired with *Hou Po*, it forces rebellious upward Stomach vectors back down, while *Bai Zhu*, *Fu Ling*, *Yi Yi Ren*, *Shan Yao*, and *Zhi Gan Cao* seal the central Earth dike so lower water cannot overflow into the lungs.
@@ -54,7 +54,7 @@ Consider a complex 19-herb respiratory and dampness prescription frequently depl
 
 Why does the vocabulary of low-level computer science map one-to-one onto the *Shanghan Lun* and *Huangdi Neijing*? Because any open, self-regulating system complex enough to process inputs, execute work, and clear metabolic waste must obey the exact same physical laws—whether its hardware is forged from silicon logic gates or carbon-based meridians:
 
-```text
+```
              UNIVERSAL SYSTEM ARCHITECTURE
     ┌─────────────────────────────────────────────┐
     │          Input ──► Core Processing          │
@@ -96,12 +96,12 @@ Why does the vocabulary of low-level computer science map one-to-one onto the *S
 Why can a 2-to-5 herb classical formula—or a mere 2-gram micro-dose of *Xi Xin*—re-compile an entire chronic pathology that resisted 25-herb shotgun prescriptions for years? Because in a continuous dynamic loop, **you do not supply the brute-force work; you alter the parameters of execution.**
 
 #### Mechanism I: Crossing the Thermodynamic Phase Boundary
-Consider pure water ($\text{H}_2\text{O}$) inside a closed hydraulic pipe:
+Consider pure water (H₂O) inside a closed hydraulic pipe:
 - At **0C**, it freezes into solid ice, halting all throughput (**Cold-Lock / Stasis**).
 - At **35C**, it sits at the bottom as a heavy, sluggish liquid (**Damp Stagnation / *Zhi Yin* Mucus Pooling**).
 - At **100C**, it flashes into kinetic steam, generating upward pressure and rapid circulation (**Qi Transformation / *Qi Hua***).
 
-The chemical substance ($\text{H}_2\text{O}$) never changed—only the thermal parameter shifted. When a classical formula introduces a precise thermal micro-lever (such as 2g of *Xi Xin* or 4.5g of *Gan Jiang*) at the lower water gate, it pushes the internal microclimate across a **phase boundary**. Sluggish water pooling as chest phlegm and nasal rheum vaporizes into circulating mist. Under the new thermal parameter, the old pathological state (mucus accumulation) becomes physically impossible to sustain.
+The chemical substance (H₂O) never changed—only the thermal parameter shifted. When a classical formula introduces a precise thermal micro-lever (such as 2g of *Xi Xin* or 4.5g of *Gan Jiang*) at the lower water gate, it pushes the internal microclimate across a **phase boundary**. Sluggish water pooling as chest phlegm and nasal rheum vaporizes into circulating mist. Under the new thermal parameter, the old pathological state (mucus accumulation) becomes physically impossible to sustain.
 
 #### Mechanism II: Flipping the Inverted Vector Matrix
 A healthy biological runtime relies on strict directional polarity: **Lung *Qi* and Stomach fluids must descend ($\downarrow$), while clear Spleen *Qi* must ascend ($\uparrow$).**
@@ -220,12 +220,12 @@ Once the micro-lever nudges the system past its critical tipping point, the prac
 為何一首僅有 2 至 5 味藥的古典經方——甚至區區 2 克的細辛微調——能夠徹底重編譯（Re-compile）二十五味大雜方長年無法撼動的頑疾？因為在連續動態迴路中，**高階操作者從不靠蠻力替系統做功，而是直接修改系統執行的底層參數。**
 
 #### 機制一：跨越熱力學相變邊界（Phase Boundary Shift）
-試看密閉流體管道中的純水（$\text{H}_2\text{O}$）：
+試看密閉流體管道中的純水（H₂O）：
 - 在 **0C** 時，水凝結為堅冰，一切流動徹底停止（**寒凝死鎖／脈道不通**）。
 - 在 **35C** 時，水化為沉重黏滯的液體停聚於管道底部（**濕濁停聚／心下支飲**）。
 - 在 **100C** 時，水瞬間沸騰為高動能蒸汽，產生向上膨脹之壓力與高速循環（**陽氣蒸騰／氣化周流**）。
 
-水分子（$\text{H}_2\text{O}$）本身從未改變，改變的唯有**溫度參數**。當經方在下焦水閘處投入極小劑量的高熱能槓桿（如 2g 細辛或 4.5g 乾薑），它並非在「殺滅某個症狀」，而是將體內微氣候推過**相變臨界點（Phase Threshold）**。原本停聚成痰飲與鼻涕的死水瞬間汽化為周流全身的雲霧——在新的熱力學參數下，舊有的病理狀態（痰飲積聚）在物理上根本無法繼續存在。
+水分子（H₂O）本身從未改變，改變的唯有**溫度參數**。當經方在下焦水閘處投入極小劑量的高熱能槓桿（如 2g 細辛或 4.5g 乾薑），它並非在「殺滅某個症狀」，而是將體內微氣候推過**相變臨界點（Phase Threshold）**。原本停聚成痰飲與鼻涕的死水瞬間汽化為周流全身的雲霧——在新的熱力學參數下，舊有的病理狀態（痰飲積聚）在物理上根本無法繼續存在。
 
 #### 機制二：翻轉倒置的向量矩陣（拔除中央排水塞）
 健康的生物運行環境依賴嚴格的向量極性：**肺氣與胃氣必須下行（$\downarrow$），脾氣之清陽必須上升（$\uparrow$）。**
@@ -244,7 +244,7 @@ Once the micro-lever nudges the system past its critical tipping point, the prac
 #### 機制三：透過穩態吸引子（Homeostatic Attractors）逃離假性平衡
 在非線性動力學（Non-Linear Dynamics）與熱力學系統理論中，一個健康的生命體並非靠主觀意志力「努力維持健康」，而是自然坍縮至摩擦力最低、耗能最小的數學平衡態——物理學稱之為**「穩態吸引子（Homeostatic Attractor）」**。
 
-```text
+```
    假性平衡（局部高熵能量陷阱）                  穩態吸引子（全局最優數學平衡）
  ┌────────────────────────────────┐             ┌────────────────────────────────┐
  │ • 高熵增與高通道摩擦阻力       │             │ • 最小能量損耗 (Minimum Energy)│
